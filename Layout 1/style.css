@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+#logo{
+    background-color: gray;
+    /* padding: 10px; */
+    padding-left: 2%;
+    color: aliceblue;
+    width: 100%;
+    height: 50px;
+    /* border: 5px solid black; */
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+
+#nav-bar{
+    background-color: rgb(181, 181, 181);
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+#nav-bar > ul> li{
+display:inline-block;
+padding: 3px;
+padding-right: 10px;
+}
+
+#header{
+background-color: rgb(204, 204, 204);
+text-align: center;
+min-height: 100px;
+line-height: 100px;
+margin-bottom: 5px;
+}
+
+#main{
+    width: 100%;
+    /* min-height: 500px; */ 
+    margin-bottom: 5px;
+}
+
+/* after the content of both area we want to genearate this */
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+ 
+}
+
+#side-bar{
+float: left;
+width: 28%;
+min-height: 500px;
+background-color: rgb(221, 221, 221);
+border: 1px solid black;
+text-align: center;
+line-height:500px;
+}
+
+#body-area{
+width: 70%;
+min-height: 500px;
+float: right;
+background-color: rgb(231, 231, 231);
+border: 1px solid black;
+text-align: center;
+line-height:500px;
+}
+
+#footers{
+    width: 100%;
+    background-color: rgb(181, 181, 181);
+    text-align: center;
+    line-height: 50px;
+}
+#wrapper{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(82, 87, 89);
+
+}
